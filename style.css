@@ -15,7 +15,7 @@ html{
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(img/background.png);
+    background-image: url(img/newb.png);
     background-size: cover;
     background-position: center;
 }
@@ -47,7 +47,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #e44c10;
+    background: #d40e0e;
     position: absolute;
     left: 0;
     bottom:-6px;
@@ -57,7 +57,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 30px;
 }
 .header-text h1{
@@ -65,7 +65,7 @@ nav ul li a:hover::after{
     margin-top: 20px;  
 }
 .header-text h1 span{
-    color: #e44c10;
+    color: #d40e0e;
 }
 /*---------------------about---------------------*/
 
@@ -108,7 +108,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #e44c10;
+    background: #d40e0e;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -123,7 +123,7 @@ nav ul li a:hover::after{
     
 }
 .tab-contents ul li span{
-    color: #e44c10;
+    color: #d40e0e;
     font-size: 19px;
 }
 .tab-contents{
@@ -134,7 +134,7 @@ nav ul li a:hover::after{
     display: block;
 }
  
-/*----------------services---------*/
+
 
 /*--------------------projects-----------------*/
 #portfolio{
@@ -161,7 +161,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#e44c10);
+    background: linear-gradient(rgba(0,0,0,0.6),#d40e0e);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -183,7 +183,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: #e44c10;
+    color: #d40e0e;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -211,7 +211,7 @@ nav ul li a:hover::after{
 
 }
 .contact-left p i{
-    color: #e44c10;
+    color: #d40e0e;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -228,13 +228,13 @@ nav ul li a:hover::after{
 }
 
 .social-icons a:hover{
-    color: #ff04ff;
+    color: #d40e0e;
     transform: translateY(-5px);
 }
 .btn.btn2{ 
     display: inline-block;
     margin-top: 20px;
-    background: #e44c10;
+    background: #d40e0e;
     text-decoration: none;
     
     padding: 15px 30px;
@@ -272,5 +272,5 @@ form btn2{
 
 }
 .copyright i{
-    color: #e44c10;
+    color:#d40e0e;
 }
